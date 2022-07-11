@@ -1,6 +1,6 @@
 project = "waygolf"
 
-app "example-python" {
+app "waygolf" {
   labels = {
     "service" = "waygolf",
     "env"     = "dev"
