@@ -1,8 +1,8 @@
-project = "waygolf"
+project = "waypoint"
 
-app "waygolf" {
+app "waypoint-golf" {
   labels = {
-    "service" = "waygolf",
+    "service" = "waypoint-golf",
     "env"     = "dev"
   }
 
@@ -12,7 +12,6 @@ app "waygolf" {
 
   deploy {
     use "docker" {
-      service_port = 8080
     }
   }
 }
